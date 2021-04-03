@@ -64,4 +64,77 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
 ```
 ![LANGKAH 2 P2](https://user-images.githubusercontent.com/81758407/113469337-f86ee100-9476-11eb-82cf-d6f3ae1d64f2.PNG)
 
+## 3. Menambahkan Inline CSS
+Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut. 
+
+```
+<p style="text-align: center; color: #ccd8e4;">
+```
+![LANGKAH 3 P2](https://user-images.githubusercontent.com/81758407/113469450-bc884b80-9477-11eb-8da8-0fbf5ee62bee.PNG)
+
+## 4. Membuat CSS Eksternal
+Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
+```
+nav {
+    background: #20A759;
+    color:#fff;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding:10px 20px;
+}
+nav .active,
+nav a:hover {
+    background: #0B6B3A;
+}
+```
+![css](https://user-images.githubusercontent.com/81758407/113469546-85ff0080-9478-11eb-880f-724cc1db740d.PNG)
+Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>
+    
+```    
+<head>
+    <!-- menyisipkan css eksternal -->
+    <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+</head>
+```
+![LANGKAH 4 P2](https://user-images.githubusercontent.com/81758407/113469571-b8a8f900-9478-11eb-9df0-f1d1c1cbb613.PNG)
+
+## 5. Menambahkan CSS Selector
+Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file
+style_eksternal.css, tambahkan kode berikut.
+```
+/* ID Selector */
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+}
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+}
+/* Class Selector */
+.button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+.btn-primary {
+    background: #E42A42;
+}
+```
+![LANGKAH 5 P2](https://user-images.githubusercontent.com/81758407/113469724-230e6900-947a-11eb-8300-c03fbee0af18.
+
+## Pertanyaan dan Tugas
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
 
