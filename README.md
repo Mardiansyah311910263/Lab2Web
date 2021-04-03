@@ -37,4 +37,31 @@ Buatlah dokumen HTML seperti berikut
 ```
 ![LANGKAH 1 P2](https://user-images.githubusercontent.com/81758407/113469141-7a5e0a80-9475-11eb-89f0-98614553be3e.PNG)
 
+## 2. Mendeklarasikan CSS Internal
+Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen.
+```
+<head>
+    <title>CSS Dasar</title>
+    <style>
+        body {
+            font-family:'Open Sans', sans-serif;
+        }
+        header {
+            min-height: 80px;
+            border-bottom:1px solid #77CCEF;
+        }
+        h1 {
+            font-size: 24px;
+            color: #0F189F;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        h1 i {
+            color:#6d6a6b;
+        }
+    </style>
+</head>
+```
+![LANGKAH 2 P2](https://user-images.githubusercontent.com/81758407/113469337-f86ee100-9476-11eb-82cf-d6f3ae1d64f2.PNG)
+
 
