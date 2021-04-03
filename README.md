@@ -130,7 +130,8 @@ style_eksternal.css, tambahkan kode berikut.
     background: #E42A42;
 }
 ```
-![LANGKAH 5 P2](https://user-images.githubusercontent.com/81758407/113469724-230e6900-947a-11eb-8300-c03fbee0af18.
+![LANGKAH 5 P2](https://user-images.githubusercontent.com/81758407/113486609-effdc100-94dd-11eb-8be2-20d12dcb8fbc.PNG)
+
 
 ## Pertanyaan dan Tugas
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
